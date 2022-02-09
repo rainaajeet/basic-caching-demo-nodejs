@@ -1,0 +1,6 @@
+cd client
+yarn
+yarn serve
+
+yarn 
+yarn start
