@@ -2,7 +2,7 @@
 [build]
   command = "cd client && yarn && yarn serve"
   functions = "/.netlify/functions"
-  publish = "/public"
+  publish = ""
 
 
 [[redirects]]
