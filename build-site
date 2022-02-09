@@ -1,6 +1,6 @@
 cd client
 yarn
-yarn serve
+yarn serve &&
 
 yarn 
-yarn start
+yarn start &&
