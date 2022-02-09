@@ -21,5 +21,7 @@
     "node-fetch": "^2.6.1",
     "redis": "^3.0.2",
     "response-time": "^2.3.2"
-  }
+  },
+  "repository": "https://github.com/rainaajeet/basic-caching-demo-nodejs",
+  "license": "MIT"
 }
