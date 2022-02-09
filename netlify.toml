@@ -6,8 +6,8 @@
 
 
 [[redirects]]
-  from="/api/index.js"
-  to="/.netlify/:splat"
+  from="/api/*"
+  to="/.netlify/functions/:splat"
   status=200
   force=true
 
