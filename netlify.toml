@@ -5,10 +5,9 @@
   publish = "/public"
 
 
-
 [[redirects]]
-  from="/api/*"
-  to="/.netlify/functions/:splat"
+  from="/api/index.js"
+  to="/.netlify/:splat"
   status=200
   force=true
 
