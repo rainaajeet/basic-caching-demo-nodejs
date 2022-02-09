@@ -1,6 +1,6 @@
 # example netlify.toml
 [build]
-  command = "cd client && yarn serve && cd .. && yarn && yarn start"
+  command = "cd client && yarn serve && ../yarn && yarn start"
   functions = "functions"
   publish = "/public"
 
