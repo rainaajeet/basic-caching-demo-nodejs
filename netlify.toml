@@ -1,8 +1,8 @@
 # example netlify.toml
 [build]
   command = "cd client && yarn && yarn serve"
-  functions = "/.netlify/functions"
-  publish = ""
+  functions = "functions"
+  publish = "/public"
 
 
 [[redirects]]
