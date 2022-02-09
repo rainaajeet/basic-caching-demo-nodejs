@@ -1,15 +1,15 @@
 # example netlify.toml
-#[build]
-#  command = "yarn start"
-#  functions = "functions"
-#  publish = "/public"
-#
-#
-#[[redirects]]
-#  from="/api/*"
-#  to="/.netlify/functions/:splat"
-#  status=200
-#  force=true
+[build]
+  command = "yarn client && yarn server"
+  functions = "functions"
+  publish = "/public"
+
+
+[[redirects]]
+  from="/api/*"
+  to="/.netlify/functions/:splat"
+  status=200
+  force=true
 #
 #[dev]
 #  command = "yarn start"
